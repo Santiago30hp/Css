@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+.menu{
+    position: fixed;
+    background-color: #2C3E50;
+    width: 100%;
+    height: 90px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 17px;
+    padding: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+    transition: 0.7s ease;
+}
+a:hover{
+    color: #1ABC9C;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.menu span{
+    color: #fff;
+    padding-left: 25px;
+    margin: 26px 0px 0px 30px;
+    font-size: 30px;
+    font-weight: 1000; 
+}
+.Star{
+    background-color: #1ABC9C;
+    height: 600px;
+}
+.Star img{
+    width: 200px;
+    padding: 100px 0px 0px 0px;
+}
+.Star h2{
+    padding: 35px 0px 0px 0px ;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+.Star p{
+    padding: 35px 0px 0px 0px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.Portafolio h2{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.Portafolio img{
+    width: 400px;
+    margin: 18px 0px 0px 25px;
+    border-radius: 15px;
+}
+.acercade{
+    background-color: #1ABC9C;
+    height: 700px;
+}
+.acercade h2{
+    padding: 35px 0px 0px 0px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.acercade table{
+    padding: 30px 0px 0px 30px ;
+    margin: 18px 0px 0px 25px;
+    font-size: 25px;
+}
+.acercade h2{
+    color: #fff;
+}
+.acercade table{
+    color: #fff;
+}
+.acercade button{
+    background-color: #1ABC9C;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.acercade button:hover{
+    background-color: #fff;
+    color:#1ABC9C;
+    cursor: pointer;
+}
+.Contactos {
+   background-color: #fff;
+   height: 800px;
+}
+.Contactos h2{
+    padding: 35px 0px 0px 0px ;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+.Contactos input{
+    margin-top: 10px;
+    width: 35%;
+}
+.Contactos h3{
+    padding: 10px 0px 0px 620px;
+    margin-top: 60px;
+}
+.Contactos button{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #1ABC9C;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 50px;
+}
+.Contactos button:hover{
+    cursor: pointer;
+    background-color: #14a88b;
+}
+.Footer{
+    background-color: #2C3E50;
+    height: 345px;
+    color: #fff;
+}
+.Footer a{
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #2C3E50;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 50px;
+   
+}
+.Footer a:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #2C3E50;
+    transition: 0.3 ease;
+}
+.Footer a i{
+  width: 25px;
+}
+.Footer h4{
+    font-size: 30px;
+}
+.Footer p{
+    font-size: 20px;
+}
+.Footer table{
+    padding: 90px 0px 0px 0px;
+}
+.Portafolio img:hover{
+    filter: invert(100%);
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+  }
